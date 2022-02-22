@@ -19,4 +19,11 @@ int main() {
     for(int i=0; i<silly.size(); i++) {
         printf("%d", silly[i]);
     }
+
+    int sillyTwo[2];
+
+    sillyTwo[0] = 5;
+
+    std::cout << "" << std::endl;
+    std::cout << sillyTwo[0] << std::endl;
 }
