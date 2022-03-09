@@ -1,12 +1,10 @@
-#include "GetSilly.hpp"
-
-#include <cmath>
+#include <iostream>
+#include <map>
 
 int main() {
-    GetSilly s;
-    s.contactSilly();
+    std::map<std::string, float> sillyMap;
 
-    int funni = 0;
+    const char* who = "woman";
 
-    std::cout << fmax(1, funni) << std::endl;
+    sillyMap.insert(std::pair<std::string, float>("woman", 6.9f));
 }
